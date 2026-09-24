@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 5000;
 
 // Bot state tracking
 let botState = {
-  connected: false,
+  connected: true,
   lastActivity: Date.now(),
   reconnectAttempts: 0,
   startTime: Date.now(),
